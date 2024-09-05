@@ -4,7 +4,7 @@ namespace DotNet.Docker.Entities
 {
     public class RoleEntity
     {
-        int Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public IEnumerable<UserEntity> Users { get; set; }
